@@ -1,0 +1,18 @@
+name: simpsons
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9  
+  - numpy
+  - torch
+  - torchvision
+  - scikit-learn
+  - tqdm
+  - pillow
+  - scikit-image==1.2.2
+  - streamlit
+  - pip
+  - pip:
+      - pathlib
+      - pickle-mixin
